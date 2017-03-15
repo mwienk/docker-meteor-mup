@@ -8,3 +8,4 @@ ENV METEOR_ALLOW_SUPERUSER true
 RUN curl https://install.meteor.com | /bin/sh
 RUN node -v
 RUN npm install -g mup
+RUN npm install -g eslint eslint-plugin-class-property eslint-plugin-react
